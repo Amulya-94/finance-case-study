@@ -1,0 +1,24 @@
+.analysis-panel {
+  flex: 1;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ccc;
+}
+
+.analysis-link {
+  color: #cc0000; /* Red color for clickable link */
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.analysis-link:hover {
+  background-color: #f0f0f0;
+}
+
+.findings-list {
+  padding-left: 20px;
+  list-style: none;
+}

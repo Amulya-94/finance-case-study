@@ -1,0 +1,36 @@
+.financials-snippet {
+  flex: 1;
+  padding: 0 20px 0 0;
+}
+
+.income-statement-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.income-statement-table th,
+.income-statement-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: right;
+}
+
+.income-statement-table td:first-child {
+  text-align: left;
+  font-weight: normal;
+}
+
+.income-statement-table th {
+  background-color: #e6f0f5; /* Light blue header */
+  font-weight: bold;
+}
+
+/* The critical highlight class for the row */
+.highlight-yellow {
+  background-color: #ffffe0; /* A soft yellow for visibility */
+  border-color: #ffcc00; /* Add a border highlight */
+  box-shadow: 0 0 5px #ffcc00;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
